@@ -1,9 +1,12 @@
 <?php
 /*
 Plugin Name: PWD Theme Switcher
-Description: Theme Switcher
+Description: Change theme to see your changes without saving it just for your session
 Version: 1.0
-Author URI: Kulka Nicolas
+Plugin URI: http://www.plateformewpdigital.fr/plugins/pwd-theme-switcher
+Author: Plateforme WP Digital, Kulka Nicolas
+Author URI: http://www.plateformewpdigital.fr
+Network: false
 Text Domain: pwd-theme-switcher
 Domain Path: languages
 */
@@ -35,6 +38,5 @@ _pwd_theme_switcher_load_files( PWD_THEME_SWITCHER_DIR . 'classes/', array( 'plu
 add_action( 'plugins_loaded', 'init_pwd_theme_switcher_plugin' );
 function init_pwd_theme_switcher_plugin() {
 	// Load client
-
 	new PWD_THEME_SWITCHER_Plugin();
 }

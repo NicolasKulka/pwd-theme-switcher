@@ -1,30 +1,27 @@
 === PWD Theme Switcher ===
 Contributors: plateforme-wp-digital, nicolaskulka
 Author URI: http://www.plateformewpdigital.fr
-Plugin URL: http://www.plateformewpdigital.fr/plugins
+Plugin URL: http://www.plateformewpdigital.fr/plugins/pwd-theme-switcher
 Requires at Least: 3.2
-Tested Up To: 4.2.1
-Tags:
+Tested Up To: 4.2.2
+Tags: changer, presentation, preview, preview theme, selector, adminbar, switcher, template, theme, theme preview, theme switcher, themes, themeswitcher
 Stable tag: 1.0
 License: GPLv2 or later
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
 
-This plugin .
+Change theme to see your changes without saving it just for your session.
 
 == Description ==
 
 = English =
+Change theme to see your changes without saving it just for your session
 
 If you love the plugin, please consider rating it and clicking on "it works" button.
 
-Come translate plugin : (https://www.transifex.com/projects/p/pwd-theme-switcher/)
-
 = Français =
-Switcher facilement de test sans le changer en backoffice.
+Switcher facilement de thème pour voir vos modifications sans le changer en backoffice et l'enregistrer.
 
 Si vous aimez le plugin, laisser une évaluation et cliquer sur ​​le bouton «it works».
-
-Venez traduire le plugin : (https://www.transifex.com/projects/p/pwd-theme-switcher/)
 
 = Localization =
 * French
@@ -46,16 +43,16 @@ Venez traduire le plugin : (https://www.transifex.com/projects/p/pwd-theme-switc
 = English =
 1. Upload the directory `/pwd-theme-switcher/` to the `/wp-content/plugins/` directory
 2. Activate the plugin through the 'Plugins' menu in WordPress
-3. Click on "Customize" > "Login page" and upload your favicon
+3. In admin bar, change your theme
 
 = Français =
 1. Envoyez le dossier pwd-theme-switcher dans le dossier /wp-content/plugins/
 2. Activez PWD Theme Switcher sur la page des plugins de WordPress
+3. Dans l'admin bar, modifier votre thème
 
 == Screenshots ==
 
-1. Modify your login page
-2. Modifier votre page de connexion
+1. Change your theme
 
 == Changelog ==
 

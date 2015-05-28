@@ -2,6 +2,9 @@
 
 class PWD_THEME_SWITCHER_Plugin {
 
+	/**
+	 * Register hooks
+	 */
 	public function __construct() {
 		add_action( 'admin_bar_menu', array( __CLASS__, 'admin_bar_menu' ), 1000 );
 		add_action( 'init', array( __CLASS__, 'init' ) );
@@ -14,6 +17,9 @@ class PWD_THEME_SWITCHER_Plugin {
 	}
 
 	/**
+	 *
+	 * Set cookie for change theme
+	 *
 	 * @return bool
 	 * @author Nicolas Kulka
 	 */
@@ -37,6 +43,9 @@ class PWD_THEME_SWITCHER_Plugin {
 	}
 
 	/**
+	 *
+	 * Add theme switcher in admin bar
+	 *
 	 * @author Nicolas Kulka
 	 */
 	public static function admin_bar_menu() {
@@ -69,6 +78,9 @@ class PWD_THEME_SWITCHER_Plugin {
 	}
 
 	/**
+	 *
+	 * Change current theme temporarly
+	 *
 	 * @param $current
 	 *
 	 * @return mixed
@@ -83,6 +95,9 @@ class PWD_THEME_SWITCHER_Plugin {
 	}
 
 	/**
+	 *
+	 * Change template temporarly
+	 *
 	 * @param $template
 	 *
 	 * @return mixed
@@ -102,6 +117,9 @@ class PWD_THEME_SWITCHER_Plugin {
 	}
 
 	/**
+	 *
+	 * Change stylesheet temporarly
+	 *
 	 * @param $stylesheet
 	 *
 	 * @return mixed
